@@ -1,0 +1,16 @@
+{
+  "name": "OSSfS",
+  "description": "Součást balíku Open School System. OpenSchoolSystem for Students je součást určená pro provozování třídního webu. Obsahuje možnost sdílení souborů, diář a chatroom.",
+  "repository": {
+    "url": "https://github.com/sakos-foundation/OpenSchoolSystem-for-Students",
+    "license": "GPL-3.0"
+  },
+  "keywords": [
+    "Vypisky",
+    "OSSfS",
+    "OSS",
+	"Sakos",
+	"Sakos-Foundation",
+	"OpenSchoolSystem-for-Students"
+  ]
+}
