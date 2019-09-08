@@ -1,0 +1,10 @@
+#Hide files
+Options -Indexes
+
+#Nice URLs - redirect all links to index.php
+RewriteEngine On
+# RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule !\.(css|js|icon|zip|rar|7z|iso|img|png|jpg|gif|pdf|doc|docx|map)$ index.php [L]
